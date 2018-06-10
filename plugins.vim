@@ -13,6 +13,8 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'majutsushi/tagbar'
 	Plug '907th/vim-auto-save'
 	Plug 'rking/ag.vim'
+	Plug 'leafgarland/typescript-vim'
+	Plug 'Quramy/vim-js-pretty-template'
 call plug#end()
 
 let g:ctrlp_working_path_mode = 'r'
@@ -34,3 +36,11 @@ let g:ycm_global_ycm_extra_conf = "~/.config/nvim/.ycm_extra_conf.py"
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 let g:deoplete#enable_at_startup = 1
 color dracula
+
+" Typscript plugin configuration
+let g:typescript_compiler_binary = 'tsc'
+let g:typescript_compiler_options = ''
+autocmd QuickFixCmdPost [^l]* nested cwindow
+autocmd QuickFixCmdPost    l* nested lwindow
+"autocmd FileType typescript JsPreTmpl html
+"autocmd FileType typescript syn clear foldBraces

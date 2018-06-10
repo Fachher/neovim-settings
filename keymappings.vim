@@ -17,7 +17,7 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 map <M-.> :vsplit<cr>
-map <C-space> <C-f>
+map <space> <C-f>
 "map <space> :
 "nmap <leader>m :w!<cr>:make<cr>
 nmap <leader>m :make<cr>
