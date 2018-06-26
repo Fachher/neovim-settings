@@ -15,9 +15,10 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'rking/ag.vim'
 	Plug 'leafgarland/typescript-vim'
 	Plug 'Quramy/vim-js-pretty-template'
+	Plug 'andreshazard/vim-logreview'
 call plug#end()
 
-let g:ctrlp_working_path_mode = 'r'
+let g:ctrlp_working_path_mode = 'rw'
 let g:ctrlp_clear_cache_on_exit = 0
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|\.hg$\|\.svn$\|bower_components$\|dist$\|node_modules$\|project_files$\|test$',
@@ -26,7 +27,6 @@ let g:ctrlp_mruf_relative = 1
 let g:ctrlp_max_files=0
 let g:ctrlp_max_depth=40
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
-let g:ctrlp_working_path_mode=1
 set omnifunc=syntaxcomplete#Complete
 let g:tagbar_ctags_bin = '/usr/local/Cellar/ctags/5.8_1/bin/ctags'
 let g:tagbar_autofocus = 1
