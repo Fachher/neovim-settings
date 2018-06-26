@@ -16,9 +16,10 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'leafgarland/typescript-vim'
 	Plug 'Quramy/vim-js-pretty-template'
 	Plug 'andreshazard/vim-logreview'
+	Plug 'rakr/vim-one'
 call plug#end()
 
-let g:ctrlp_working_path_mode = 'rw'
+let g:ctrlp_working_path_mode = 'r'
 let g:ctrlp_clear_cache_on_exit = 0
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|\.hg$\|\.svn$\|bower_components$\|dist$\|node_modules$\|project_files$\|test$',
@@ -35,7 +36,8 @@ let g:auto_save_events = ["InsertLeave"]
 let g:ycm_global_ycm_extra_conf = "~/.config/nvim/.ycm_extra_conf.py"
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 let g:deoplete#enable_at_startup = 1
-color dracula
+color one
+let g:airline_theme='one'
 
 " Typscript plugin configuration
 let g:typescript_compiler_binary = 'tsc'
