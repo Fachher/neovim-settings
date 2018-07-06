@@ -18,6 +18,8 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'andreshazard/vim-logreview'
 	Plug 'rakr/vim-one'
 	Plug 'suoto/vim-hdl'
+	Plug 'SirVer/ultisnips'
+	Plug 'honza/vim-snippets'
 call plug#end()
 
 let g:ctrlp_working_path_mode = 'r'
@@ -37,8 +39,8 @@ let g:auto_save_events = ["InsertLeave"]
 let g:ycm_global_ycm_extra_conf = "~/.config/nvim/.ycm_extra_conf.py"
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 let g:deoplete#enable_at_startup = 1
-color one
-let g:airline_theme='one'
+color dracula
+let g:airline_theme='dracula'
 
 " Typscript plugin configuration
 let g:typescript_compiler_binary = 'tsc'
@@ -47,3 +49,10 @@ autocmd QuickFixCmdPost [^l]* nested cwindow
 autocmd QuickFixCmdPost    l* nested lwindow
 "autocmd FileType typescript JsPreTmpl html
 "autocmd FileType typescript syn clear foldBraces
+
+" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+let g:UltiSnipsExpandTrigger="<c-j>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+
