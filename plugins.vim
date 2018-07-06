@@ -17,6 +17,7 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'Quramy/vim-js-pretty-template'
 	Plug 'andreshazard/vim-logreview'
 	Plug 'rakr/vim-one'
+	Plug 'suoto/vim-hdl'
 call plug#end()
 
 let g:ctrlp_working_path_mode = 'r'

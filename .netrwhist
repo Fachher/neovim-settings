@@ -1,5 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A'
-let g:netrw_dirhist_2='/Users/fachher.syed/Projects/workspace_visco/visco-documents/.gradle'
-let g:netrw_dirhist_3='/Users/fachher.syed/Backup'
