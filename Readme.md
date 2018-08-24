@@ -30,4 +30,7 @@ Keyboard -> Key Repeat[short] and Delay[short] until repeat<Paste>
 
 
 # Requirement
+`brew install neovim`
 `brew install the_silver_searcher`
+`brew install ctags`
+`pip3 install --user neovim`
