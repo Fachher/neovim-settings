@@ -20,6 +20,7 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'suoto/vim-hdl'
 	Plug 'SirVer/ultisnips'
 	Plug 'honza/vim-snippets'
+	Plug 'vim-scripts/groovy.vim'
 call plug#end()
 
 let g:ctrlp_working_path_mode = 'r'
