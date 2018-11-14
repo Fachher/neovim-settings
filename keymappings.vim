@@ -7,6 +7,7 @@ nnoremap <leader>p "+p
 nnoremap <leader>P "+P
 vnoremap <leader>p "+p
 vnoremap <leader>P "+P
+map <leader>b :CtrlPBuffer<cr>
 nmap <leader>w :w!<cr>
 nnoremap <leader>q :copen<CR>
 nmap <leader>s :Ag! ""<left>

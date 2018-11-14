@@ -12,6 +12,7 @@ set mouse=a
 set wildignore+=*.o,*.bin,*.class,*.a,*/.git/*,*/.hg/*,*/.svn/*,*/.DS_Store,node_modules/**
 set exrc
 set secure
+set ignorecase
 let mapleader = ","
 let g:mapleader = ","
 syntax on
