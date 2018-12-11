@@ -11,7 +11,6 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'tpope/vim-fugitive'
 	Plug 'rust-lang/rust.vim'
 	Plug 'majutsushi/tagbar'
-	Plug '907th/vim-auto-save'
 	Plug 'rking/ag.vim'
 	Plug 'leafgarland/typescript-vim'
 	Plug 'Quramy/vim-js-pretty-template'
@@ -21,6 +20,7 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'SirVer/ultisnips'
 	Plug 'honza/vim-snippets'
 	Plug 'vim-scripts/groovy.vim'
+	Plug 'MattesGroeger/vim-bookmarks'
 call plug#end()
 
 let g:ctrlp_working_path_mode = 'r'
@@ -55,5 +55,5 @@ autocmd QuickFixCmdPost    l* nested lwindow
 let g:UltiSnipsExpandTrigger="<c-j>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
-
-
+let g:bookmark_sign = '♥'
+let g:bookmark_highlight_lines = 1
