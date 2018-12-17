@@ -5,7 +5,9 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'jiangmiao/auto-pairs'
 	Plug 'kien/ctrlp.vim'
 	Plug 'Valloric/YouCompleteMe'
-	Plug 'vim-airline/vim-airline'
+	if has('macunix')
+		Plug 'vim-airline/vim-airline'
+	endif
 	Plug 'terryma/vim-multiple-cursors'
 	Plug 'tpope/vim-surround'
 	Plug 'tpope/vim-fugitive'
