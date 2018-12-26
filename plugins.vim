@@ -1,5 +1,5 @@
 call plug#begin('~/.config/nvim/plugged')
-	Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+	Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' } 
 	Plug 'scrooloose/nerdcommenter'
 	Plug 'dracula/vim', { 'as': 'dracula' }
 	Plug 'jiangmiao/auto-pairs'
@@ -40,6 +40,7 @@ let g:tagbar_autofocus = 1
 let g:auto_save = 1
 let g:auto_save_events = ["InsertLeave"]
 let g:ycm_global_ycm_extra_conf = "~/.config/nvim/.ycm_extra_conf.py"
+let g:ycm_confirm_extra_conf = 0
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 let g:deoplete#enable_at_startup = 1
 color dracula
