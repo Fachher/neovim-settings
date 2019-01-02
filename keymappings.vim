@@ -34,6 +34,5 @@ map <leader>nn :NERDTreeToggle<CR>
 nnoremap ,c :call NERDComment(0,"toggle")<CR>
 vnoremap ,c :call NERDComment(0,"toggle")<CR>
 nnoremap <leader>h :CtrlPMRU <CR>
-nnoremap <leader>f :CtrlP <CR>
 nmap <F8> :TagbarToggle<CR>
 
