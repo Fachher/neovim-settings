@@ -34,3 +34,4 @@ Keyboard -> Key Repeat[short] and Delay[short] until repeat<Paste>
 `brew install the_silver_searcher`
 `brew install ctags`
 `pip3 install --user neovim`
+`pip3 install --user jsbeautifier`

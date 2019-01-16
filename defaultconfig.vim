@@ -20,3 +20,4 @@ syntax enable
 hi Visual  guifg=#FFFFFF guibg=green gui=none
 hi CursorLine cterm=None ctermbg=blue ctermfg=white guibg=darkred guifg=white
 autocmd BufNewFile,BufRead Jenkinsfile set syntax=groovy
+autocmd FileType javascript setlocal equalprg=js-beautify\ --stdin

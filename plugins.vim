@@ -23,6 +23,8 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'honza/vim-snippets'
 	Plug 'vim-scripts/groovy.vim'
 	Plug 'MattesGroeger/vim-bookmarks'
+	Plug 'isRuslan/vim-es6'
+
 call plug#end()
 
 let g:ctrlp_working_path_mode = 'r'
