@@ -1,4 +1,11 @@
-
+"map <up> <nop>
+"map <down> <nop>
+"map <left> <nop>
+"map <right> <nop>
+"imap <up> <nop>
+"imap <down> <nop>
+"imap <left> <nop>
+"imap <right> <nop>
 vnoremap <leader>y "+y
 nnoremap <leader>Y "+yg_
 nnoremap <leader>y "+y
