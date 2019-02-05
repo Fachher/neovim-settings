@@ -1,5 +1,6 @@
 set autoread
 set nowrap
+set iskeyword+=-
 set number
 set tabstop=4
 set shiftwidth=4

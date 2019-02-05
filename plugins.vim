@@ -4,7 +4,7 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'dracula/vim', { 'as': 'dracula' }
 	Plug 'jiangmiao/auto-pairs'
 	Plug 'kien/ctrlp.vim'
-	Plug 'Valloric/YouCompleteMe'
+	Plug 'Valloric/YouCompleteMe', { 'for': ['c', 'cpp', 'java', 'js', 'ts', 'sh'] }
 	if has('macunix')
 		Plug 'vim-airline/vim-airline'
 	endif
@@ -24,6 +24,7 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'vim-scripts/groovy.vim'
 	Plug 'MattesGroeger/vim-bookmarks'
 	Plug 'isRuslan/vim-es6'
+	Plug 'udalov/kotlin-vim'
 
 call plug#end()
 

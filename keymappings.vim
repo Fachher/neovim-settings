@@ -34,6 +34,7 @@ map ff :NERDTreeFind<cr>
 "nmap <leader>m :w!<cr>:make<cr>
 nmap <leader>m :make<cr>
 nmap <leader>s /^\s*
+imap <f10> <c-x><c-f>
 vmap <enter> :s/\s/\r/g<cr>:noh<cr>
 
 "============== Plugin configuration =============
