@@ -25,6 +25,7 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'MattesGroeger/vim-bookmarks'
 	Plug 'isRuslan/vim-es6'
 	Plug 'udalov/kotlin-vim'
+	Plug 'posva/vim-vue'
 
 call plug#end()
 

@@ -14,6 +14,8 @@ set wildignore+=*.o,*.bin,*.class,*.a,*/.git/*,*/.hg/*,*/.svn/*,*/.DS_Store,node
 set exrc
 set secure
 set ignorecase
+set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+set list
 let mapleader = ","
 let g:mapleader = ","
 syntax on
