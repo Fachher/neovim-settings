@@ -28,6 +28,9 @@ All plugins have been found at (http://vimawesome.com)
 For better typing enable also 
 Keyboard -> Key Repeat[short] and Delay[short] until repeat<Paste>
 
+Reformat xml visual selected
+:'<,'>!xmllint --format -
+
 
 # Requirement
 `brew install neovim`
