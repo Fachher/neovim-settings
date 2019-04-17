@@ -43,4 +43,5 @@ nnoremap ,c :call NERDComment(0,"toggle")<CR>
 vnoremap ,c :call NERDComment(0,"toggle")<CR>
 nnoremap <leader>h :CtrlPMRU <CR>
 nmap <F8> :TagbarToggle<CR>
-
+nmap <leader>1 :NERDTreeFocus<CR>
+nmap <leader><esc> <C-w>w
