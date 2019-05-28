@@ -36,6 +36,7 @@ nmap <leader>m :make<cr>
 nmap <leader>s /^\s*
 imap <f10> <c-x><c-f>
 vmap <enter> :s/\s/\r/g<cr>:noh<cr>
+nmap <leader>e :! ./%<cr>
 
 "============== Plugin configuration =============
 map <leader>nn :NERDTreeToggle<CR>
