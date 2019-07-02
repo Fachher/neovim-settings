@@ -46,3 +46,17 @@ nnoremap <leader>h :CtrlPMRU <CR>
 nmap <F8> :TagbarToggle<CR>
 nmap <leader>1 :NERDTreeFocus<CR>
 nmap <leader><esc> <C-w>w
+
+" Like gJ, but always remove spaces
+fun! JoinSpaceless()
+    execute 'normal gJ'
+
+    " Character under cursor is whitespace?
+    if matchstr(getline('.'), '\%' . col('.') . 'c.') =~ '\s'
+        " When remove it!
+        execute 'normal dw'
+    endif
+endfun
+
+" Map it to a key
+nnoremap <Leader>J :call JoinSpaceless()<CR>
