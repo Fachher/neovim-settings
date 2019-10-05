@@ -4,7 +4,10 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'dracula/vim', { 'as': 'dracula' }
 	Plug 'jiangmiao/auto-pairs'
 	Plug 'kien/ctrlp.vim'
-	Plug 'Valloric/YouCompleteMe', { 'for': ['c', 'cpp', 'java', 'js', 'ts', 'sh'] }
+	Plug 'Valloric/YouCompleteMe', { 
+				\ 'for': ['c', 'cpp', 'java', 'js', 'ts', 'sh'],
+				\ 'do': 'bash install.py --clang-completer',
+				\ }
 	if has('macunix')
 		Plug 'vim-airline/vim-airline'
 	endif

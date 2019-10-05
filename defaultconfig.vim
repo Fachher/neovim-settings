@@ -15,7 +15,8 @@ set exrc
 set secure
 set ignorecase
 set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
-set list
+set nolist
+filetype indent on
 let mapleader = ","
 let g:mapleader = ","
 syntax on

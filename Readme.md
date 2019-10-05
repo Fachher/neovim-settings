@@ -31,6 +31,9 @@ Keyboard -> Key Repeat[short] and Delay[short] until repeat<Paste>
 Reformat xml visual selected
 :'<,'>!xmllint --format -
 
+Reads a dump of file sample.bin, formatted as C source
+:r !xxd -i sample.bin
+
 
 # Requirement
 `brew install neovim`
