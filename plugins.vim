@@ -5,7 +5,7 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'jiangmiao/auto-pairs'
 	Plug 'kien/ctrlp.vim'
 	Plug 'Valloric/YouCompleteMe', { 
-				\ 'for': ['c', 'cpp', 'java', 'js', 'ts', 'sh'],
+				\ 'for': ['c', 'cpp', 'java', 'js', 'ts', 'sh', 'py'],
 				\ 'do': 'bash install.py --clang-completer',
 				\ }
 	if has('macunix')

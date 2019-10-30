@@ -6,6 +6,7 @@
 "imap <down> <nop>
 "imap <left> <nop>
 "imap <right> <nop>
+nnoremap <F5> :buffers<CR>:buffer<Space>
 vnoremap <leader>y "+y
 nnoremap <leader>Y "+yg_
 nnoremap <leader>y "+y
