@@ -29,6 +29,7 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'isRuslan/vim-es6'
 	Plug 'udalov/kotlin-vim'
 	Plug 'posva/vim-vue'
+	Plug 'mattn/vim-xxdcursor'
 
 call plug#end()
 
