@@ -41,3 +41,4 @@ Reads a dump of file sample.bin, formatted as C source
 `brew install ctags`
 `pip3 install --user neovim`
 `pip3 install --user jsbeautifier`
+`pip3 install --user requests`
