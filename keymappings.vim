@@ -29,7 +29,7 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 map <M-.> :vsplit<cr>
 map <space> <C-f>
-map <f12> :q!<cr>
+map <f12> :qall!<cr>
 map ff :NERDTreeFind<cr>
 "map <space> :
 "nmap <leader>m :w!<cr>:make<cr>
