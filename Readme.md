@@ -42,3 +42,5 @@ Reads a dump of file sample.bin, formatted as C source
 `pip3 install --user neovim`
 `pip3 install --user jsbeautifier`
 `pip3 install --user requests`
+`pip3 install --user css-beautify`
+`pip3 install --user six`
