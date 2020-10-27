@@ -11,7 +11,6 @@ call plug#begin('~/.config/nvim/plugged')
 	if has('macunix')
 		Plug 'vim-airline/vim-airline'
 	endif
-	Plug 'terryma/vim-multiple-cursors'
 	Plug 'tpope/vim-surround'
 	Plug 'tpope/vim-fugitive'
 	Plug 'rust-lang/rust.vim'
@@ -21,9 +20,6 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'Quramy/vim-js-pretty-template'
 	Plug 'andreshazard/vim-logreview'
 	Plug 'rakr/vim-one'
-	Plug 'suoto/vim-hdl'
-	Plug 'SirVer/ultisnips'
-	Plug 'honza/vim-snippets'
 	Plug 'vim-scripts/groovy.vim'
 	Plug 'MattesGroeger/vim-bookmarks'
 	Plug 'isRuslan/vim-es6'
