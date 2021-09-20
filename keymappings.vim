@@ -62,3 +62,22 @@ endfun
 
 " Map it to a key
 nnoremap <Leader>J :call JoinSpaceless()<CR>
+
+" Override w motion
+function! MyWMotion()
+    " Save the initial position
+    let initialLine=line('.')
+
+    " Execute the builtin word motion and get the new position
+    normal! W
+    let newLine=line('.')
+
+    " If the line as changed go back to the previous line
+    if initialLine != newLine
+        normal k$
+    endif
+endfunction
+
+nnoremap <silent> W :call MyWMotion()<CR>
+
+
