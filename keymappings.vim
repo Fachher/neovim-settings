@@ -6,7 +6,9 @@
 "imap <down> <nop>
 "imap <left> <nop>
 "imap <right> <nop>
+
 nnoremap <F5> :buffers<CR>:buffer<Space>
+nnoremap <F7> :w<CR>:make<CR>:!./%:r<CR>
 nnoremap <F10> :confirm qa<CR>
 vnoremap <leader>y "+y
 nnoremap <leader>Y "+yg_
@@ -81,3 +83,4 @@ endfunction
 nnoremap <silent> W :call MyWMotion()<CR>
 
 
+command! -nargs=0 UpsideDown execute 'g/^/m0'
